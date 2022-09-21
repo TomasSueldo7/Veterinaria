@@ -128,3 +128,10 @@ CREATE TABLE MedicamentossXConsulta(
 	CONSTRAINT MedicXCons_Id_Medicamento_fk FOREIGN KEY (Id_medicamento) REFERENCES Medicamentos(Id_medicamento),
 	);
 
+CREATE TABLE Usuarios(
+	id_usuario int IDENTITY(1,1),
+	Usuario varchar(50),
+	Contra varchar(50),
+	Rol varchar(50),
+	CONSTRAINT Id_Usuario_pk PRIMARY KEY (Id_usuario),
+	);

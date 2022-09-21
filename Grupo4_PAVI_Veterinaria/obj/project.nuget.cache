@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "B+6U9jk2faK1do3MczFUKUwus5cAC9zmw5EawW4zUzkoxxhyAvXu4bOKwpCScfoayJfpPbT615/cr2NRDC+QDQ==",
+  "dgSpecHash": "/9Ym5lZObtOIe/oEzVnqhXq6+7An7f4K2GM4bUUvY38di+QwSQiGE/CG9ljGQemPVKeBTV8fASQwIJzxvF6ZuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\sueld\\Desktop\\Facultad\\Facultad\\3 - Tercer Año\\PAV\\Veterinaria-El-Sabueso-Feliz-\\Grupo4_PAVI_Veterinaria\\Grupo4_PAVI_Veterinaria.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\sueld\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\sueld\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
