@@ -18,14 +18,14 @@ namespace Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados
         {
             InitializeComponent();
         }
-
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            Empleado emp= ObtenerDatosEmpleado();
-            bool resultado = AgregarEmpleadoABD(emp);
+            Empleado emp= ObtenerDatosEmpleado(); //Obtengo los datos de los txt
+            bool resultado = AgregarEmpleadoABD(emp); //Los agrego a la BD
             if (resultado)
             {
                 MessageBox.Show("Persona agregada con éxito");
+                cargarGrillaEmpleados();
                 LimpiarCampos();
                 
             }
@@ -34,7 +34,6 @@ namespace Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados
                 MessageBox.Show("Error al agregar Persona");
             }
         }
-
         private Empleado ObtenerDatosEmpleado()
         {
             Empleado emp = new Empleado();
@@ -52,10 +51,53 @@ namespace Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados
 
         private void NuevoEmpleado_Load(object sender, EventArgs e)
         {
-            LimpiarCampos();
             cargarComboTipoDoc();
-            txtNombre.Focus();
+            cargarGrillaEmpleados();
+            btnModificar.Enabled = false;
+            LimpiarCampos();
         }
+
+        private void cargarGrillaEmpleados()
+        {
+            string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD"];
+            SqlConnection cn = new SqlConnection(cadenaConexion);
+            try
+            {
+
+                SqlCommand cmd = new SqlCommand();
+
+                string consulta = "SELECT Nombre, Apellido, Nro_Doc " +
+                    "FROM Empleados ";
+
+                cmd.Parameters.Clear(); 
+
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = consulta; 
+
+                cn.Open();
+                cmd.Connection = cn;
+
+                DataTable tabla = new DataTable();
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(tabla);
+
+                gdrEmpleados.DataSource = tabla;
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error al cargar la grilla de Empleados");
+            }
+            finally
+            {
+                cn.Close();
+            }
+
+        }
+    
 
         private void cargarComboTipoDoc()
         {
@@ -96,8 +138,7 @@ namespace Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados
                 finally
                 {
                     cn.Close();
-                }     
-            
+                }                
         }
 
         private void LimpiarCampos()
@@ -109,9 +150,7 @@ namespace Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados
             txtNroDocumento.Text = "";
             txtFechaIngreso.Text = "";
             txtFechaNacimiento.Text = "";
-            
-
-
+            txtNombre.Focus();
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -149,6 +188,157 @@ namespace Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados
             {
 
                 MessageBox.Show("Error al crear Usuario");
+            }
+            finally
+            {
+                cn.Close();
+            }
+            return resultado;
+        }
+
+        private void gdrEmpleados_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int indice = e.RowIndex; //Me indica en que fila estoy parado
+            btnModificar.Enabled = true;
+            DataGridViewRow filaSeleccionada = gdrEmpleados.Rows[indice];
+            string documento = filaSeleccionada.Cells["Documento"].Value.ToString();
+            Empleado emp = ObtenerEmpleado(documento);
+            LimpiarCampos();
+            cargarEmpleado(emp);
+            
+        }
+
+        private void cargarEmpleado(Empleado emp)
+        {
+            txtNombre.Text = emp.NombreEmpleado;
+            txtApellido.Text = emp.ApellidoEmpleado;
+            DateTime fecha = emp.FechaNacimientoEmpleado;
+            string dia = "";
+            string mes = "";
+            string año = "";
+            dia = fecha.Date.Day.ToString();
+            if (dia.Length == 1)
+            {
+                dia = "0" + dia;
+            }
+            mes = fecha.Date.Month.ToString();
+            if (mes.Length == 1)
+            {
+                mes = "0" + mes;
+            }
+            año = fecha.Date.Year.ToString();
+            txtFechaNacimiento.Text = dia + mes + año;
+            cmbTipoDoc.SelectedValue = emp.IdTipoDocumentoEmpleado;
+            txtNroDocumento.Text = emp.DocumentoEmpleado;
+            txtMatricula.Text = emp.MatriculaEmpleado;
+            DateTime fecha2 = emp.FechaIngresoEmpleado;
+            string dia2 = "";
+            string mes2 = "";
+            string año2 = "";
+            dia2 = fecha2.Date.Day.ToString();
+            if (dia2.Length == 1)
+            {
+                dia2 = "0" + dia2;
+            }
+            mes2 = fecha2.Date.Month.ToString();
+            if (mes2.Length == 1)
+            {
+                mes2 = "0" + mes2;
+            }
+            año2 = fecha2.Date.Year.ToString();
+            txtFechaIngreso.Text = dia2 + mes2 + año2;
+        }
+
+        private Empleado ObtenerEmpleado(string? documento)
+        {
+            bool resultado = false;
+            string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD"];
+            SqlConnection cn = new SqlConnection(cadenaConexion);
+            Empleado emp = new Empleado();
+
+            try
+            {
+                SqlCommand cmd = new SqlCommand();
+                string consulta = "SELECT * FROM Empleados where Nro_Doc like @documento";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@documento", documento);
+
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = consulta;
+
+                cn.Open();
+                cmd.Connection = cn;
+                SqlDataReader dr = cmd.ExecuteReader(); //obtener resultado
+                if (dr != null && dr.Read()) //pregunto si la consulta sql devolvio un resultado o no, el dr.read me dice que carga al dr con el
+                                             //primer valor que tiene que leer del resultado de esa fila que me devolvio la consulta sql
+                {
+                    emp.NombreEmpleado = dr["Nombre"].ToString();
+                    emp.ApellidoEmpleado = dr["Apellido"].ToString();
+                    emp.FechaNacimientoEmpleado = DateTime.Parse(dr["Fecha_nacimiento"].ToString());
+                    emp.IdTipoDocumentoEmpleado = int.Parse(dr["Tipo_doc"].ToString());
+                    emp.DocumentoEmpleado = dr["Nro_Doc"].ToString();
+                    emp.MatriculaEmpleado = dr["Matricula"].ToString();
+                    emp.FechaIngresoEmpleado = DateTime.Parse(dr["Fecha_ingreso"].ToString());
+
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Error al cargar Usuario");
+            }
+            finally
+            {
+                cn.Close();
+            }
+            return emp;
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Empleado emp = ObtenerDatosEmpleado();
+            bool resultado = ModificarEmpleado(emp);
+            if (resultado)
+            {
+                MessageBox.Show("Empleado actualizado con éxito");
+                LimpiarCampos();
+                cargarGrillaEmpleados();
+                cargarComboTipoDoc();
+            }
+            
+        }
+
+        private bool ModificarEmpleado(Empleado emp)
+        {
+            bool resultado = false;
+            string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD"];
+            SqlConnection cn = new SqlConnection(cadenaConexion);
+
+            try
+            {
+                SqlCommand cmd = new SqlCommand(); 
+                string consulta = " UPDATE Empleados SET Nombre = @nombre, Apellido = @apellido, Fecha_nacimiento = @fechanacimiento, Tipo_doc = @idtipodocumento, Nro_doc = @nrodocumento, Fecha_ingreso = @fechaingreso, Matricula = @matricula "+
+                    "WHERE Nro_doc like @nrodocumento";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@nombre", emp.NombreEmpleado);
+                cmd.Parameters.AddWithValue("@apellido", emp.ApellidoEmpleado);
+                cmd.Parameters.AddWithValue("@fechanacimiento", emp.FechaNacimientoEmpleado);
+                cmd.Parameters.AddWithValue("@idtipodocumento", emp.IdTipoDocumentoEmpleado);
+                cmd.Parameters.AddWithValue("@nrodocumento", emp.DocumentoEmpleado);
+                cmd.Parameters.AddWithValue("@fechaingreso", emp.FechaIngresoEmpleado);
+                cmd.Parameters.AddWithValue("@matricula", emp.MatriculaEmpleado);
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = consulta;
+
+                cn.Open();
+                cmd.Connection = cn;
+                cmd.ExecuteNonQuery();
+                resultado = true;
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Error al actualizar empleado");
             }
             finally
             {

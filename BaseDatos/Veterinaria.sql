@@ -1,11 +1,18 @@
 --Creo la base de datos
-CREATE DATABASE Veterinaria;
+CREATE DATABASE Veterinaria__;
 --Selecciono la base de datos para hacer modificaciones
-USE Veterinaria;
+USE Veterinaria__;
+
+CREATE TABLE Tipo_Doc(
+	Id_TipoDoc int IDENTITY(1,1) NOT NULL,
+	Nombre varchar(50) NOT NULL,
+	Descripcion varchar(50),
+	CONSTRAINT Id_TipoDoc PRIMARY KEY (Id_TipoDoc)
+	);
 
 CREATE TABLE Empleados(
 	Legajo int IDENTITY(1,1) NOT NULL,
-	Tipo_doc varchar(10) NOT NULL,
+	Tipo_doc int,
 	Nro_doc varchar(10) NOT NULL,
 	Nombre varchar(20) NOT NULL,
 	Apellido varchar(20) NOT NULL,
@@ -15,9 +22,10 @@ CREATE TABLE Empleados(
 	Fecha_baja date,
 	Activo int NOT NULL, 
 	CONSTRAINT Legajo_pk PRIMARY KEY (Legajo),
-	CONSTRAINT Activo_ck CHECK(Activo > -1 AND Activo < 2)
+	CONSTRAINT Activo_ck CHECK(Activo > -1 AND Activo < 2),
+	CONSTRAINT Empleados_Tipo_doc_fk FOREIGN KEY (Tipo_doc) REFERENCES Tipo_Doc(Id_TipoDoc),
 	);
-
+	
 CREATE TABLE Razas(
 	Id_raza int IDENTITY(1,1) NOT NULL,
 	Denominacion varchar(20),
