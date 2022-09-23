@@ -1,4 +1,5 @@
-﻿using Grupo4_PAVI_Veterinaria.formularios.abmcPerros;
+﻿using Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados;
+using Grupo4_PAVI_Veterinaria.formularios.abmcPerros;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,16 +19,16 @@ namespace Grupo4_PAVI_Veterinaria.formularios
             InitializeComponent();
         }
 
-        private void PrincipalForm_Load(object sender, EventArgs e)
+        private void nuevoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            NuevoEmpleado ventana = new NuevoEmpleado();
+            ventana.Show();
         }
 
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             NuevoPerro ventana = new NuevoPerro();
             ventana.Show();
-            this.Close();
         }
     }
 }
