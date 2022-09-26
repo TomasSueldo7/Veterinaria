@@ -4,7 +4,7 @@
     <Compile Update="formularios\abmcEmpleados\NuevoEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formularios\abmcPerros\NuevoPerro.cs">
+    <Compile Update="formularios\ABMC\Perros.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formularios\PrincipalForm.cs">

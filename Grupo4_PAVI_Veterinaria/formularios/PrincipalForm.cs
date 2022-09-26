@@ -27,7 +27,7 @@ namespace Grupo4_PAVI_Veterinaria.formularios
 
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NuevoPerro ventana = new NuevoPerro();
+            Perros ventana = new Perros();
             ventana.Show();
         }
     }
