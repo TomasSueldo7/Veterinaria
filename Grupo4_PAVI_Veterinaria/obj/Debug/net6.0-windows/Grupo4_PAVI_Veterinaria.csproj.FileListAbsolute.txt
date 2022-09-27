@@ -81,3 +81,90 @@ C:\Users\sueld\Desktop\Facultad\Facultad\3 - Tercer Año\PAV\Nueva carpeta\Veter
 C:\Users\sueld\Desktop\Facultad\Facultad\3 - Tercer Año\PAV\Nueva carpeta\Veterinaria\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.CopyComplete
 C:\Users\sueld\Desktop\Facultad\Facultad\3 - Tercer Año\PAV\Nueva carpeta\Veterinaria\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.genruntimeconfig.cache
 C:\Users\sueld\Desktop\Facultad\Facultad\3 - Tercer Año\PAV\Nueva carpeta\Veterinaria\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\ref\Grupo4_PAVI_Veterinaria.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.exe
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll.config
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.deps.json
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.runtimeconfig.json
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.pdb
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.AssemblyReference.cache
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados.NuevoEmpleado.resources
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.abmcPerros.Perros.resources
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.PrincipalForm.resources
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.Login.resources
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.GenerateResource.cache
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.AssemblyInfoInputs.cache
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.AssemblyInfo.cs
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.CoreCompileInputs.cache
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.CopyComplete
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\refint\Grupo4_PAVI_Veterinaria.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.pdb
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.genruntimeconfig.cache
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\ref\Grupo4_PAVI_Veterinaria.dll
+D:\UTN\PAV1\TrabajoPractico\Copia de seguridad\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.Properties.Resources.resources
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.AssemblyReference.cache
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados.NuevoEmpleado.resources
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.abmcPerros.Perros.resources
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.PrincipalForm.resources
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.Login.resources
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.Properties.Resources.resources
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.GenerateResource.cache
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.AssemblyInfoInputs.cache
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.AssemblyInfo.cs
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.CoreCompileInputs.cache
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\refint\Grupo4_PAVI_Veterinaria.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.pdb
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.exe
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll.config
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.deps.json
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.runtimeconfig.json
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.pdb
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.CopyComplete
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.genruntimeconfig.cache
+C:\Users\santi\OneDrive\Escritorio\TERCER AÑO\PAV 1\TP PAV\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\ref\Grupo4_PAVI_Veterinaria.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.exe
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll.config
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.deps.json
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.runtimeconfig.json
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.pdb
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.AssemblyReference.cache
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.abmcEmpleados.NuevoEmpleado.resources
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.abmcPerros.Perros.resources
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.formularios.PrincipalForm.resources
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.Login.resources
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.Properties.Resources.resources
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.GenerateResource.cache
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.AssemblyInfoInputs.cache
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.AssemblyInfo.cs
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.CoreCompileInputs.cache
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.csproj.CopyComplete
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\refint\Grupo4_PAVI_Veterinaria.dll
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.pdb
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\Grupo4_PAVI_Veterinaria.genruntimeconfig.cache
+C:\Users\santi\OneDrive\Escritorio\mainve\Grupo4_PAVI_Veterinaria\obj\Debug\net6.0-windows\ref\Grupo4_PAVI_Veterinaria.dll

@@ -49,7 +49,8 @@
             this.ColumnaNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnaApellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnBaja = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gdrEmpleados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -187,18 +188,18 @@
             // btnAceptar
             // 
             this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAceptar.Location = new System.Drawing.Point(276, 362);
+            this.btnAceptar.Location = new System.Drawing.Point(254, 362);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 48);
             this.btnAceptar.TabIndex = 17;
-            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.Text = "Registrar";
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnLimpiar
             // 
             this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLimpiar.Location = new System.Drawing.Point(63, 362);
+            this.btnLimpiar.Location = new System.Drawing.Point(45, 362);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(75, 48);
             this.btnLimpiar.TabIndex = 18;
@@ -246,23 +247,35 @@
             this.Documento.ReadOnly = true;
             this.Documento.Width = 120;
             // 
-            // btnModificar
+            // btnActualizar
             // 
-            this.btnModificar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnModificar.Location = new System.Drawing.Point(172, 362);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 48);
-            this.btnModificar.TabIndex = 20;
-            this.btnModificar.Text = "Modificar Usuario";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
+            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnActualizar.Location = new System.Drawing.Point(150, 362);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(75, 48);
+            this.btnActualizar.TabIndex = 20;
+            this.btnActualizar.Text = "Actualizar Usuario";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnModificar_Click);
+            // 
+            // btnBaja
+            // 
+            this.btnBaja.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnBaja.Location = new System.Drawing.Point(359, 362);
+            this.btnBaja.Name = "btnBaja";
+            this.btnBaja.Size = new System.Drawing.Size(75, 48);
+            this.btnBaja.TabIndex = 21;
+            this.btnBaja.Text = "Eliminar";
+            this.btnBaja.UseVisualStyleBackColor = true;
+            this.btnBaja.Click += new System.EventHandler(this.btnBaja_Click);
             // 
             // NuevoEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(763, 450);
-            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnBaja);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.gdrEmpleados);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnAceptar);
@@ -310,9 +323,10 @@
         private Button btnAceptar;
         private Button btnLimpiar;
         private DataGridView gdrEmpleados;
-        private Button btnModificar;
+        private Button btnActualizar;
         private DataGridViewTextBoxColumn ColumnaNombre;
         private DataGridViewTextBoxColumn ColumnaApellido;
         private DataGridViewTextBoxColumn Documento;
+        private Button btnBaja;
     }
 }

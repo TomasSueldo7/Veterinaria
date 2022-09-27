@@ -30,5 +30,11 @@ namespace Grupo4_PAVI_Veterinaria.formularios
             Perros ventana = new Perros();
             ventana.Show();
         }
+
+        private void empleadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            NuevoEmpleado ventana = new NuevoEmpleado();
+            ventana.Show();
+        }
     }
 }

@@ -1,6 +1,7 @@
 using System.Data.SqlClient;
 using System.Data;
 using Grupo4_PAVI_Veterinaria.formularios;
+using Grupo4_PAVI_Veterinaria.Datos;
 
 namespace Grupo4_PAVI_Veterinaria
 {
@@ -16,7 +17,6 @@ namespace Grupo4_PAVI_Veterinaria
             if (txtUsuario.Text.Equals("") || txtPassword.Text.Equals(""))
             {
                 MessageBox.Show("Ingrese nombre de usuario y contraseña");
-
             }
             else
             {
@@ -25,7 +25,8 @@ namespace Grupo4_PAVI_Veterinaria
                 bool resultado = false;
                 try
                 {
-                    resultado = ValidarUsuario(nombreDeUsuario, contra);
+                    
+                    resultado = UsuariosBD.ValidarUsuario(nombreDeUsuario, contra);
                 }
                 catch (Exception)
                 {
@@ -45,47 +46,6 @@ namespace Grupo4_PAVI_Veterinaria
                 }
             }
         }
-        private bool ValidarUsuario(string nombreDeUsuario, string password)
-        {
-            string cadenaConexion = System.Configuration.ConfigurationManager.AppSettings["CadenaBD"];
-            SqlConnection cn = new SqlConnection(cadenaConexion);
-            try
-            {
-                bool resultado = false;
-                SqlCommand cmd = new SqlCommand();
 
-
-                string consulta = "SELECT * FROM Usuarios WHERE Usuario LIKE @nombreDeUsuario AND Contra LIKE @password";
-                cmd.Parameters.Clear();
-                cmd.Parameters.AddWithValue("nombreDeUsuario", nombreDeUsuario);
-                cmd.Parameters.AddWithValue("password", password);
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = consulta;
-
-                cn.Open();
-                cmd.Connection = cn;
-
-                DataTable tabla = new DataTable();
-
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                da.Fill(tabla);
-
-                if (tabla.Rows.Count == 1)
-                {
-                    resultado = true;
-                }
-
-                return resultado;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                cn.Close();
-            }
-
-        }
     }
 }
